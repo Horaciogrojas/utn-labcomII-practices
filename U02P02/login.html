@@ -1,12 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Login</title>
 </head>
 <body>
-    
+    <h1>Vacunación Covid</h1>
+    <h2>En esta página usted deberá ingresar su usuario y contraseña</h2>
+    <h2>A fin de tramitar el certificado único de circulación</h2>
+    <form action="accion.php" method="POST" target="_blank">
+        <label for="usuario">USUARIO:</label>
+        <input type="text" id="usuario" name="usuario" placeholder="nombre de usuario"/>
+
+        <label for="contraseña">CONTRASEÑA:</label>
+        <input type="password" id="password name="contraseña" placeholder="clave de ingreso"/>
+
+        <label for="checkbox">RECORDAR USUARIO</label>
+        <input type="checkbox" name="checkbox" id="checkbox"/>
+
+        <input type="submit" value="ENTRAR" />
+    </form>
+
 </body>
 </html>
